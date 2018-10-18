@@ -2,6 +2,13 @@ package com.addisonsnyder.torrent.simulator;
 
 import lombok.Getter;
 
+/**
+ * A simulator for P2P torrents, which can be managed to broadly manipulate the
+ * inner environment by adding/removing entities or ticking the simulation
+ * forward.
+ * 
+ * @author Addison Snyder
+ */
 public abstract class AbstractSimulator {
 
 	@Getter
