@@ -1,13 +1,29 @@
 package addisonsnyder.torrent.peer;
 
 import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
+/**
+ * One of the basic entities involved in torrenting - generally speaking, a Peer
+ * owns a personal collection of torrents and has the capability to interact
+ * with other Peers through Connections
+ * 
+ * @author Addison Snyder
+ *
+ */
 @NoArgsConstructor(access = AccessLevel.NONE)
-@AllArgsConstructor(access = AccessLevel.PACKAGE)
+@RequiredArgsConstructor(access = AccessLevel.PACKAGE)
 public class Peer {
+
 	@Getter
-	private long Id;
+	final private long id;
+
+	@Getter
+	@Setter
+	@NonNull
+	private PeerStrategy peerStrategy;
 }
