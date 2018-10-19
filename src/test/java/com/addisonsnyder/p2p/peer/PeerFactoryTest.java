@@ -1,4 +1,4 @@
-package com.addisonsnyder.torrent.peer;
+package com.addisonsnyder.p2p.peer;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
