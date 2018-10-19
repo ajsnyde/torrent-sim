@@ -6,9 +6,6 @@ import lombok.NoArgsConstructor;
 /**
  * Default strategy. Because this won't be too complicated, this is a singleton
  * and must remain completely stateless
- * 
- * @author Addison Snyder
- *
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class DefaultPeerStrategy implements PeerStrategy {

@@ -11,9 +11,6 @@ import lombok.Setter;
  * One of the basic entities involved in torrenting - generally speaking, a Peer
  * owns a personal collection of torrents and has the capability to interact
  * with other Peers through Connections
- * 
- * @author Addison Snyder
- *
  */
 @NoArgsConstructor(access = AccessLevel.NONE)
 @RequiredArgsConstructor(access = AccessLevel.PACKAGE)
