@@ -7,6 +7,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import com.addisonsnyder.p2p.simulator.AbstractSimulator;
+import com.addisonsnyder.p2p.simulator.DefaultSimulator;
+
 class DefaultSimulatorTest {
 
 	AbstractSimulator simulator;

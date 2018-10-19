@@ -1,4 +1,4 @@
-package com.addisonsnyder.torrent.simulator;
+package com.addisonsnyder.p2p.simulator;
 
 import lombok.Getter;
 

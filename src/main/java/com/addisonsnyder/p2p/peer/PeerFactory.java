@@ -1,4 +1,4 @@
-package addisonsnyder.torrent.peer;
+package com.addisonsnyder.p2p.peer;
 
 public class PeerFactory {
 	private long id = 0;

@@ -7,7 +7,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import addisonsnyder.torrent.peer.PeerFactory;
+import com.addisonsnyder.p2p.peer.PeerFactory;
 
 class PeerFactoryTest {
 
